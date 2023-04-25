@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /*background: #005AA7;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*--------------------------------INDEX--------------------------------*/
+#contentBox{
+    width: 600px;
+    /*border: 1px solid #10707f;*/
+    border-radius: 30px;
+    padding: 20px;
+
+    margin-top: 50px;
+    /*margin-bottom: 80px;*/
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+#footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#btn{
+    font-family: "Segoe UI";
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    
+
+}
+
+#brandOne{
+    font-size: 25px;
+    font-weight: bold;
+}
+#brandTwo{
+    font-size: 25px;
+    font-weight: lighter;
+}
+a.navbar-brand > img{
+    margin-top: -15px;
+}
+#contentTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #3f3844;
+    margin-bottom: 40px;
+    
+}
+#contentText{
+    
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+/*--------------------------------OUTPUT--------------------------------*/
+#output a{
+    width: 500px;
+}
+#contentOutput{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font: 280% sans-serif;
+    font-family: "Segoe UI";
+    color: black;
+
+}
+
+p{
+    font: oblique bold 120% cursive;
+    font-family: "Segoe UI";
+}
+
+#imgOutput{
+    margin-top: 55px;
+    margin-bottom: 50px;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    height: 280px;
+    width: 280px;
+}
+
+@keyframes animation {
+    0%   {
+        left:0px;
+        top:0px;
+    }
+    /*25%  {left:200px; top:0px;}*/
+    30%  {
+        left:185px;
+        top:0px;
+    }
+    60%  {
+        left:0px;
+        top:0px;
+    }
+    /*75%  {left:200px; top:0px;}*/
+    100% {
+        left:-210px;
+        top:0px;
+    }
+}
+
+
+.animated-button {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 12px 32px;
+    background-color: #4285F4;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Estilo para el botón deshabilitado */
+    font-family: "Segoe UI";
+    
+    cursor: not-allowed;
+    border-color: red;
+    border: red;
+    
+    
+}
+
+
+
+.animated-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.animated-button span {
+    position: relative;
+    z-index: 1;
+}
+
+.animated-button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.animated-button:hover:before {
+    height: 100%;
+}
+
+.container {
+    border-radius: 60px;
+    
+}
+
+.escritura-animada {
+    overflow: hidden; /* ocultar el texto completo */
+    border-right: .15em solid orange; /* crear una línea naranja simulando que se está escribiendo */
+    white-space: nowrap; /* evitar que el texto se rompa a una nueva línea */
+    margin: 0;
+    padding: 0;
+   font-size: 40px;
+   
+    animation: escribiendo 5s steps(60, end), blink .7s step-end infinite; /* definir la animación */
+
+}
+
+/* definir la animación */
+@keyframes escribiendo {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    40% {
+        border-color: orange
+    }
+}
+
+/* Estilo para el botón deshabilitado */
+button[disabled] {
+    opacity: 0.0; /*0.0 para no ver el boton, 0.3 para que medio se vea*/
+    cursor: not-allowed;
+    
+}
+
+
+.tm{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 27px;
+    font-family: "Segoe UI";
+}
+
+.stm{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 27px;
+    font-family: "Segoe UI";
+}
+
+.prueba{
+    font-size: 2rem;
+}
+
+/*BOTONES DEL INICIO*/
+
+.anima-btn {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 12px 32px;
+    background-color: #4285F4;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Estilo para el botón deshabilitado */
+    font-family: "Segoe UI";
+    
+    cursor: not-allowed;
+    border-color: red;
+    border: red;
+    
+    
+}
+
+
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button span {
+    position: relative;
+    z-index: 1;
+}
+
+.animated-button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.animated-button:hover:before {
+    height: 100%;
+}
