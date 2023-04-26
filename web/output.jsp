@@ -10,11 +10,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Proyecto Weka</title>
+        <title>Prediccion de Acciendentes CerebroVascular</title>
         <link rel="stylesheet" href="resources/css/bootstrap.css"/>
         <link rel="stylesheet" href="resources/css/styles.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="icon" href="resources/icons/icono-cv.png">
+        <link rel="icon" href="resources/icons/cerebro.png">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
