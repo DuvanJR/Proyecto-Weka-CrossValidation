@@ -60,7 +60,7 @@
                         <div class="form-group">
                             <!-- Campo de Genero -->
                             <div class="">
-                                <label for="gender">Cual es su Genero? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique su genero?"></i></label>
+                                <label for="gender">¿Cual es su Genero? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique su genero?"></i></label>
                                 <select name="gender" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="Female">Mujer</option>
@@ -71,7 +71,7 @@
                         <div class="form-group">
                             <!-- Campo de Edad -->
                             <div class="">
-                                <label for="age">Cual es su Edad? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique su edad?"></i></label>
+                                <label for="age">¿Cual es su Edad? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique su edad?"></i></label>
                                 <input type="number" name="age" placeholder="Indica Su Edad.." id="age" class="form-control" required min="0" max="150">
                             </div>    
                         </div>
@@ -79,7 +79,7 @@
                             <!-- Campo de Hipertension -->
                             <div class="">
 
-                                <label for="hypertension">Sufres de Hipertension? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique si sufre de hipertension?"></i></label>
+                                <label for="hypertension">¿Sufres de Hipertension? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique si sufre de hipertension?"></i></label>
                                 <select name="hypertension" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="0">No</option>
@@ -92,7 +92,7 @@
                             <!-- Campo de Grosor de la cardiopatía -->
                             <div class="">
 
-                                <label for="heart_disease">Tienes Cardiopatía? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Tipo de enfermedad que afecta el corazón o los vasos sanguíneos"></i></label>
+                                <label for="heart_disease">¿Tienes Cardiopatía? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Tipo de enfermedad que afecta el corazón o los vasos sanguíneos"></i></label>
                                 <select name="heart_disease" class="form-control" required>
                                     <option value="">Selecciona una Opcion</option>
                                     <option value="0">No</option>
@@ -104,7 +104,7 @@
                         <div class="form-group">
                             <!-- Campo de Alguna vez casado -->
                             <div class="">
-                                <label for="ever_married">Estas Casado/a? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indica su estado civil?"></i></label>
+                                <label for="ever_married">¿Estas Casado/a? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indica su estado civil?"></i></label>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="ever_married" value="Yes" required/>
                                     <label class="form-check-label" for="ever_marriedYes">
@@ -123,7 +123,7 @@
                         <div class="form-group">
                             <!-- Campo de tipo de trabajo work_type -->
                             <div class="">
-                                <label for="work_type">Tipo de Trabajo? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¡indique el tipo de trabajo que se desempeña?"></i></label>
+                                <label for="work_type">¿Tipo de Trabajo? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¡indique el tipo de trabajo que se desempeña?"></i></label>
                                 <select name="work_type" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="Private">Privado</option>
@@ -137,7 +137,7 @@
                         <div class="form-group">
                             <!-- Campo de Tipo de residencia -->
                             <div class="">
-                                <label for="Residence_type">Tipo de Residencia? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Zona donde vives?"></i></label>
+                                <label for="Residence_type">¿Tipo de Residencia? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Zona donde vives?"></i></label>
                                 <select name="Residence_type" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="Urban">Zona Urbana</option>
@@ -148,14 +148,14 @@
                         <div class="form-group">
                             <!-- Campo de nivel promedio de glucosa -->
                             <div class="">
-                                <label for="avg_glucose_level">Nivel Promedio De Glucosa? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Valores de glucosa mayor que 205 son inicios de prediabetes a diabetes?"></i></label>
+                                <label for="avg_glucose_level">¿Nivel Promedio De Glucosa? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Valores de glucosa mayor que 205 son inicios de prediabetes a diabetes?"></i></label>
                                 <input type="number" name="avg_glucose_level" placeholder="Indique su Nivel Promedio De Glucosa.." id="avg_glucose_level" class="form-control" pattern="[0-9]+(\.[0-9])?" step="0.01" >
                             </div>
                         </div>
                         <div class="form-group">
                             <!-- Campo de estado_de_fumar  -->
                             <div class="">
-                                <label for="smoking_status">Fumas? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Has fumado alguna vez?"></i></label>
+                                <label for="smoking_status">¿Fumas? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Has fumado alguna vez?"></i></label>
                                 <select name="smoking_status" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="formerly smoked">Antes Fumaba</option>

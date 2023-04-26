@@ -11,8 +11,9 @@ body{
     /*background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     /*  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: Arial, Helvetica, sans-serif;
-   background-color: #202c7d;
-background-image: linear-gradient(0deg, #202c7d 0%, #97D9E1 100%);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(280deg, #8EC5FC 0%, #E0C3FC 100%);
+
 
 
 
@@ -206,7 +207,7 @@ p{
     padding: 0;
     font-size: 40px;
 
-    animation: escribiendo 5s steps(60, end), blink .7s step-end infinite; /* definir la animación */
+    animation: escribiendo 4s steps(60, end), blink .7s step-end infinite; /* definir la animación */
 
 }
 
