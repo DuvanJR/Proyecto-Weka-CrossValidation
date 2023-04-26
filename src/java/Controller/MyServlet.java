@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 /**
  *
  * @author Usuario
@@ -35,7 +34,7 @@ public class MyServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -64,7 +63,7 @@ public class MyServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+
         String gender = request.getParameter("gender");
         String age = request.getParameter("age");
         String hypertension = request.getParameter("hypertension");
@@ -108,7 +107,7 @@ public class MyServlet extends HttpServlet {
         request.setAttribute("link", link);
         request.setAttribute("msj", msj);
         reqdis.forward(request, response);
-        
+
     }
 
     /**

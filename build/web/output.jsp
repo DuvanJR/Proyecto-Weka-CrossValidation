@@ -75,7 +75,7 @@
                     </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">More Info</h4>
+                        <h3 class="modal-title">Más Información</h3>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <!-- Modal body -->
@@ -98,20 +98,23 @@
                         </div>
                         <br>
                         <div>
-                            <h6><b>Developed by</b></h6>
+                            <h5><b>Integrantes</b></h5>
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Duvan Jaimes R. <br> 
-                            <i class="fa fa-check-circle" aria-hidden="true"></i> Jose D. Cañavera S.  <br>
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Karina Suarez J. <br> 
-                            <i class="fa fa-check-circle" aria-hidden="true"></i> Mauricio Guzman S.  
+                            <i class="fa fa-check-circle" aria-hidden="true"></i> Jose D. Cañavera S.  <br>
+                            <i class="fa fa-check-circle" aria-hidden="true"></i> Mauricio Guzman S. <br>
+                            <br>
+                            <a href="https://www.kaggle.com/code/senorx/stroke-analysis" target="_blank">Link Data Set</a>
                         </div>
                     </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
         </div>
         <script src="resources/js/script.js"></script>      
+        <footer id="footer"><p>Trabajo Weka Prediccion &copy; 2023</p></footer>
     </body>
 </html>

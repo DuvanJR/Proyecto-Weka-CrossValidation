@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="resources/css/bootstrap.css"/>
         <link rel="stylesheet" href="resources/css/styles.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="icon" href="resources/icons/icono-cv.png">
+        <link rel="icon" href="resources/icons/cerebro.png">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -46,7 +46,7 @@
 
 
 
-        <!-- Form Weather Predition -->
+        <!-- Formulario Accidenten Cerebro Vascular Prediccion -->
         <div class="container" id="contentBox">
             <form class="form" id="form" action="MyServlet" method="POST">
                 <div class="row justify-content-center">
@@ -186,7 +186,7 @@
                     </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Más Informacion</h4>
+                        <h3 class="modal-title">Más Información</h3>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <!-- Modal body -->
@@ -209,23 +209,25 @@
                         </div>
                         <br>
                         <div>
-                            <h6><b>Developed by</b></h6>
+                            <h5><b>Integrantes</b></h5>
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Duvan Jaimes R. <br> 
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Karina Suarez J. <br> 
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Jose D. Cañavera S.  <br>
-                            <i class="fa fa-check-circle" aria-hidden="true"></i> Mauricio Guzman S.  
+                            <i class="fa fa-check-circle" aria-hidden="true"></i> Mauricio Guzman S. <br>
+                            <br>
+                            <a href="https://www.kaggle.com/code/senorx/stroke-analysis" target="_blank">Link Data Set</a>
                         </div>
                     </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <footer id="footer"><p>Trabajo Weka Prediccion</p></footer>
+        <footer id="footer"><p>Trabajo Weka Prediccion &copy; 2023</p></footer>
         <script src="resources/js/script.js"></script>
     </body>
 </html>

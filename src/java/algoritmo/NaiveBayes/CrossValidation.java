@@ -36,17 +36,20 @@ public class CrossValidation {
     public static double decisionNaiveBayes(String gender, double age, double hypertension, double heart_disease,
             String ever_married, String work_type, String Residence_type,
             double avg_glucose_level, String smoking_status) throws Exception {
+
         //Carga el fichero del dataset e inicializa la fuente de datos
         ConverterUtils.DataSource source = new DataSource("algoritmo/NaiveBayes/cerebrovascular.arff");
+
         //Devuelve el conjunto de datos completo
         Instances dataset = source.getDataSet();
-        //Indica a las instancias cual es la clase(decision), el último atributo (play)
+
+        //Indica a las instancias cual es la clase(decision), el último atributo (stroke)
         dataset.setClassIndex(dataset.numAttributes() - 1);
 
         //Crea nuevo objeto NaiveBayes
         NaiveBayes tree = new NaiveBayes();
 
-        //Evalua el clasificador usando cross-validation con 10 folds
+        //Evalua el clasificador usando cross-validation con 10 folds y 1 semilla
         Evaluation eval = new Evaluation(dataset);
         eval.crossValidateModel(tree, dataset, 10, new java.util.Random(1));
 
@@ -56,6 +59,7 @@ public class CrossValidation {
 
         //Clasifica una nueva instancia
         Instance instance = new DenseInstance(10);
+
         //Establece la referencia al conjunto de datos
         instance.setDataset(dataset);
 
@@ -86,7 +90,7 @@ public class CrossValidation {
         }
         System.out.println("Resultado de clasificar la nueva instancia: " + msj);
 
-        //Devuelve 0 = yes || 1 = no;
+        //Devuelve 0 = no - esta sano || 1 = Si tiene un accidente cerebro vascular;
         return result;
     }
 
