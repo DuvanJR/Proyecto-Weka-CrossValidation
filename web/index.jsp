@@ -63,8 +63,8 @@
                                 <label for="gender">¿Cual es su Genero? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="¿Indique su genero?"></i></label>
                                 <select name="gender" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
-                                    <option value="Female">Mujer</option>
-                                    <option value="Male">Hombre</option>
+                                    <option value="Female">Femenino</option>
+                                    <option value="Male">Masculino</option>
                                 </select>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                             <!-- Campo de Grosor de la cardiopatía -->
                             <div class="">
 
-                                <label for="heart_disease">¿Tienes Cardiopatía? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Tipo de enfermedad que afecta el corazón o los vasos sanguíneos"></i></label>
+                                <label for="heart_disease">¿Sufres de Cardiopatía? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Tipo de enfermedad que afecta el corazón o los vasos sanguíneos"></i></label>
                                 <select name="heart_disease" class="form-control" required>
                                     <option value="">Selecciona una Opcion</option>
                                     <option value="0">No</option>
@@ -127,7 +127,7 @@
                                 <select name="work_type" class="form-control" required>
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="Private">Privado</option>
-                                    <option value="Self-employed">Independiente</option>
+                                    <option value="Self-employed">Trabajo por cuenta propia</option>
                                     <option value="Govt_job">Trabajo Con el Gobierno</option>
                                     <option value="children">Niño</option>
                                     <option value="Never_worked">No Trabajo</option>
@@ -160,7 +160,7 @@
                                     <option value="">Seleccione una Opcion</option>
                                     <option value="formerly smoked">Antes Fumaba</option>
                                     <option value="never smoked">Nunca Fumé</option>
-                                    <option value="smokes">Fuma</option>
+                                    <option value="smokes">Fumo</option>
                                     <option value="Unknown">Desconocido</option>
                                 </select>
                             </div>
