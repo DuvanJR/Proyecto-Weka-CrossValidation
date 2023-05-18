@@ -23,7 +23,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand/logo -->
-            <a class="navbar-brand" href="index.jsp">
+            <a class="navbar-brand" href="test.jsp">
                 <img src="resources/img/logo.png" height="50" width="55" alt="50">
                 <span id="brandTwo"> Prediccion </span> <span id="brandOne"> Accidente Cerebro-Vascular </span>
             </a>
@@ -52,7 +52,7 @@
 
                     <button id="btn" type="submit" name="btnVerify" class="animated-button">
                         <span id="prueba">
-                            <a href="test.jsp" class="btn mx-auto btn-block" style="color: white; font-family: Segoe UI ">Volver al inicio</a>
+                            <a href="inicio.jsp" class="btn mx-auto btn-block" style="color: white; font-family: Segoe UI ">Volver al inicio</a>
                         </span>
                     </button>
                 </div>
