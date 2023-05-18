@@ -96,7 +96,7 @@ public class MyServlet extends HttpServlet {
 
         if (decision == 0) { //No
             link = "resources/img/saludable.png";
-            msj = "Estas Sano de un accidente "
+            msj = "Estas Libre de un accidente "
                     + "\ncerebro-vascular!!";
         } else { //Si
             link = "resources/img/cerebrovascular.png";

@@ -52,7 +52,7 @@
 
                     <button id="btn" type="submit" name="btnVerify" class="animated-button">
                         <span id="prueba">
-                            <a href="index.jsp" class="btn mx-auto btn-block" style="color: white; font-family: Segoe UI ">Volver al inicio</a>
+                            <a href="test.jsp" class="btn mx-auto btn-block" style="color: white; font-family: Segoe UI ">Volver al inicio</a>
                         </span>
                     </button>
                 </div>
