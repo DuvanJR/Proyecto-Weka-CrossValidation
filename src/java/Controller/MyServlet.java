@@ -96,12 +96,12 @@ public class MyServlet extends HttpServlet {
 
         if (decision == 0) { //No
             link = "resources/img/saludable.png";
-            msj = "Estas libre de sufrir un accidente "
-                    + "\ncerebro-vascular!!";
+            msj = "Estas libre de sufrir un Accidente "
+                    + "\nCerebroVascular!!";
         } else { //Si
             link = "resources/img/cerebrovascular.png";
             msj = "Puedes sufrir un "
-                    + "\naccidente cerebro-vascular";
+                    + "\nAccidente CerebroVascular";
         }
 
         request.setAttribute("link", link);

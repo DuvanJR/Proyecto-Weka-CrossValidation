@@ -5,12 +5,13 @@
         <group>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/cerebrovascular.txt</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/output.jsp</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/inicio.jsp</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/src/java/algoritmo/NaiveBayes/CrossValidation.java</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/resources/css/styles.css</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/src/java/algoritmo/NaiveBayes/cerebrovascular.arff</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/resources/css/prueba.css</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/test.jsp</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/src/java/Controller/MyServlet.java</file>
-            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/index.jsp</file>
-            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/resources/css/bootstrap.css</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Proyecto_IA/web/resources/js/script.js</file>
         </group>
     </open-files>

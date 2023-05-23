@@ -11,11 +11,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Prediccion de Acciendentes CerebroVascular</title>
+        <title>Prediccion de ACV</title>
         <link rel="stylesheet" href="resources/css/bootstrap.css"/>
         <link rel="stylesheet" href="resources/css/styles.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="icon" href="resources/icons/cerebro.png">
+        <link rel="icon" href="resources/icons/cerebro-icon.png">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -25,8 +25,8 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand/logo -->
             <a class="navbar-brand" href="inicio.jsp">
-                <img src="resources/img/logo.png" height="50" width="55" alt="50">
-                <span id="brandTwo"> Prediccion </span> <span id="brandOne"> Accidente Cerebro-Vascular </span>
+                <img src="resources/icons/cerebro-icon.png" height="35" width="35" alt="20">
+                <span id="brandTwo">  Prediccion </span> <span id="brandOne"> Accidente CerebroVascular </span>
             </a>
 
             <!-- Links -->
@@ -54,10 +54,10 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12">
                         <div class="form-group" id="contentTitle">
-                            <h1><b>¿Tendré Algun accidente CerebroVascular?</b></h1>
+                            <h1><b>¿Tendré Algún accidente CerebroVascular?</b></h1>
                         </div>
                         <div class="form-group" id="contentText">
-                            <h4>¡Rellena el formulario para saber si tiendras Un Accidente Cerebro-Vascular!!</h4>
+                            <h4>¡Rellena el formulario para saber si tiendras Un Accidente CerebroVascular!!</h4>
                         </div>
                         <div class="form-group">
                             <!-- Campo de Genero -->
@@ -217,7 +217,7 @@
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Jose D. Cañavera S.  <br>
                             <i class="fa fa-check-circle" aria-hidden="true"></i> Mauricio Guzman S. <br>
                             <br>
-                            <a href="https://www.kaggle.com/code/senorx/stroke-analysis" target="_blank">Link Data Set</a>
+                            <a href="https://www.kaggle.com/code/senorx/stroke-analysis/input" target="_blank">Link Data Set</a>
                         </div>
                     </div>
                     <!-- Modal footer -->
