@@ -57,7 +57,7 @@
                             <h1><b>¿Tendré Algún accidente CerebroVascular?</b></h1>
                         </div>
                         <div class="form-group" id="contentText">
-                            <h4>¡Rellena el formulario para saber si tiendras Un Accidente CerebroVascular!!</h4>
+                            <h4>¡¡Rellena el formulario para saber si tendras un posible Accidente CerebroVascular!!</h4>
                         </div>
                         <div class="form-group">
                             <!-- Campo de Genero -->
@@ -151,7 +151,7 @@
                             <!-- Campo de nivel promedio de glucosa -->
                             <div class="">
                                 <label for="avg_glucose_level">¿Nivel Promedio De Glucosa? &nbsp;<i class="fa fa-info-circle" aria-hidden="true" title="Valores de glucosa mayor que 205 son inicios de prediabetes a diabetes?"></i></label>
-                                <input type="number" name="avg_glucose_level" placeholder="Indique su Nivel Promedio De Glucosa.." id="avg_glucose_level" class="form-control" pattern="[0-9]+(\.[0-9])?" step="0.01" >
+                                <input type="number" name="avg_glucose_level" placeholder="Indique su Nivel Promedio De Glucosa.." id="avg_glucose_level" class="form-control" pattern="[0-9]+(\.[0-9])?" step="0.01" required>
                             </div>
                         </div>
                         <div class="form-group">

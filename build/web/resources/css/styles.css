@@ -12,9 +12,9 @@ body{
     /*  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F5FFFA;
-    
-    
-    
+
+
+
 }
 /*--------------------------------INDEX--------------------------------*/
 #contentBox{
@@ -26,7 +26,7 @@ body{
     margin-top: 50px;
     /*margin-bottom: 80px;*/
     background-color: #fff;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding-bottom: 20px;
 }
 
@@ -39,27 +39,27 @@ body{
 }
 
 .animated-word {
-  margin-top: 25px;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .letter {
-  transition: 0.8s;
-  transform: translateX(0);
-  cursor:grab;
-  color: black;
+    transition: 0.8s;
+    transform: translateX(0);
+    cursor:grab;
+    color: black;
 }
 
 .letter:hover {
-  transform: translatey(-1rem);
-  background: -webkit-linear-gradient(220deg,
-  hsl(29, 90%, 62%), hsl(66, 100%, 60%));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
-  cursor: default;
+    transform: translatey(-1rem);
+    background: -webkit-linear-gradient(220deg,
+        hsl(29, 90%, 62%), hsl(66, 100%, 60%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    cursor: default;
 }
 
 #btn{
